@@ -7,14 +7,20 @@ header{
   text-align: center;
 }
 section{
-  width: 380px;
+  width: 383px;
   height: 250px;
-  background-color: rgb(213, 0, 0);
+  background-color: rgb(255, 255, 255);
   margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.562);
+  height: 349px;
+  
 }
 footer{
 text-align: center;
 }
-footer > a{
-  padding-right: 20px;
+footer > nav > a{
+  padding-right: 15px;
+}
+form{
+  padding: 20px;
 }
