@@ -6,7 +6,7 @@
 header{
   text-align: center;
 }
-section{
+#form{
   width: 383px;
   height: 250px;
   background-color: rgb(255, 255, 255);
@@ -14,6 +14,13 @@ section{
   border: 1px solid rgba(0, 0, 0, 0.562);
   height: 349px;
   
+}
+section{
+  text-align: center;
+  margin: auto;
+  width: 383px;
+  height: 100px;
+  margin-top: 10px;  
 }
 footer{
 text-align: center;
@@ -24,3 +31,29 @@ footer > nav > a{
 form{
   padding: 20px;
 }
+#login{
+  background-color: #F1C559;
+  border-radius: 2px;
+  height: 30px;
+  width: 340px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#politic{
+  text-align: justify;
+}
+details{
+  margin: 5px;
+  text-align: justify;
+}
+#crie{
+  background-color: rgb(226, 229, 235);
+  border-radius: 2px;
+  height: 30px;
+  width: 383px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
