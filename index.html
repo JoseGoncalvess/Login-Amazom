@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <title>Tela de login</title>
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.png" alt="Logo-amazom" width="180px" />
+    </header>
+    <main>
+      <section id="form">
+        <form action="cadastro.php" method="get">
+          <h1>Fazer login</h1>
+          <p>
+            <label for="email">E-mail ou numero de telefone celular</label
+            ><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              autocomplete="email"
+              required
+            />
+          </p>
+          <p>
+            <label for="senha">Senha</label><br />
+            <input
+              type="password"
+              name="senha"
+              id="senha"
+              autocomplete="current-password"
+              required
+            />
+          </p>
+          <input type="submit" value="Fazer login" />
+          <p>
+            Ao continuar, você concorda com as
+            <a href="#">Condições de Uso</a> da Amazom. Por favor verifique
+            <a href="#">
+              Notificações de privacidade, notificações de Cookies</a
+            >
+            e a <a href="#">Notificações de Anuncios Baseado no interesse.</a>
+          </p>
+          <details>
+            <a href="#">Esqueceu sua sneha</a><br />
+            <a href="#">Outros problemas com acesso</a>
+          </details>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <a href="#" target="_blank">Condições de Uso</a>
+        <a href="#" target="_blank"> Poítica de Privacidade</a>
+        <a href="#" target="_blank"> Ajuda</a>
+        <a href="#" target="_blank">Cookies</a>
+        <a href="#" target="_blank">Anúncios Baseados em Interesses</a>
+      </nav>
+      <p>@ 2021-2022 Amazom.com,Inc. ou suas afiliadas</p>
+    </footer>
+  </body>
+</html>

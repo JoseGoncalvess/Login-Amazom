@@ -1,0 +1,20 @@
+@charset "UTF-8";
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  text-align: center;
+}
+section{
+  width: 380px;
+  height: 250px;
+  background-color: rgb(213, 0, 0);
+  margin: auto;
+}
+footer{
+text-align: center;
+}
+footer > a{
+  padding-right: 20px;
+}
