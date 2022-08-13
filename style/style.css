@@ -2,27 +2,41 @@
 *{
   padding: 0;
   margin: 0;
+font-family: var(--regular);
+}
+
+@font-face {
+  font-family: 'Amazom Amber';
+  src: url('../font/Amazon Ember.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Amazom Amber Bold';
+  src: url('../font/Amazon Ember Bold.ttf') format('truetype');
 }
 
 :root{
-  --regular : ;
-  --bolder : ;
+  --regular: 'Amazom Amber', sans-serif;
+  --bolder: 'Amazom Amber Bold',sans-serif;
 }
 header{
   text-align: center;
 }
 #form{
   width: 383px;
-  height: 250px;
+
   background-color: rgb(255, 255, 255);
   margin: auto;
   border: 1px solid rgba(0, 0, 0, 0.562);
   height: 349px;
+  padding: 30px;
   
 }
 #info{
   text-align: justify;
   margin: 5px;
+}
+#campos{
+  font-family: var(--bolder);
 }
 section{
   text-align: center;
@@ -30,6 +44,9 @@ section{
   width: 383px;
   height: 100px;
   margin-top: 10px;  
+}
+a{
+  text-decoration: no;
 }
 footer{
 text-align: center;
@@ -60,8 +77,8 @@ details{
   background-color: rgb(226, 229, 235);
   border-radius: 2px;
   height: 30px;
-  width: 383px;
-  margin: auto;
+  width: 415px;
+  text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
