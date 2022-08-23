@@ -8,13 +8,13 @@
     <title>Tela de login</title>
   </head>
   <body>
-    <header>
-      <img src="img/logo.png" alt="Logo-amazom" width="160px" />
+    <header style="padding: 5px;">
+      <img src="img/logo.png" alt="Logo-amazom" width="180px" />
     </header>
     <main>
       <section id="form">
-        <form action="cadastro.php" method="get">
-          <h1 id="info">Fazer login</h1>
+        <form action="cadastro.php" method="get" >
+          <h1 id="info" class="destak">Fazer login</h1>
           <p id="info">
             <label for="email" id="campos"
               >E-mail ou numero de telefone celular</label
@@ -38,7 +38,7 @@
               required
             />
           </p>
-          <button id="login">Fazer o login</button>
+          <p id="info"><input type="button" value="Fazer login" id="login"></p>
           <p id="politic">
             Ao continuar, você concorda com as
             <a href="#">Condições de Uso</a> da Amazom. Por favor verifique
@@ -48,13 +48,13 @@
             e a <a href="#">Notificações de Anuncios Baseado no interesse.</a>
           </p>
           <details>
-            <a href="#">Esqueceu sua senha</a><br />
+            <a href="#">Esqueceu sua senha ?</a><br />
             <a href="#">Outros problemas com acesso</a>
           </details>
         </form>
       </section>
-      <section>
-        <legend>---Novo na Amazom---</legend>
+      <section id="div-back">
+        <legend >---Novo na Amazom---</legend>
         <button id="crie">Crie sua Conta na Amazom</button>
       </section>
     </main>
@@ -66,7 +66,7 @@
         <a href="#" target="_blank">Cookies</a>
         <a href="#" target="_blank">Anúncios Baseados em Interesses</a>
       </nav>
-      <p>@ 2021-2022 Amazom.com,Inc. ou suas afiliadas</p>
+      <p id="copyr">© 2021-2022 Amazon.com, Inc. ou suas afiliadas</p>
     </footer>
   </body>
 </html>

@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
 font-family: var(--regular);
+
 }
 
 @font-face {
@@ -26,27 +27,39 @@ header{
 
   background-color: rgb(255, 255, 255);
   margin: auto;
-  border: 1px solid rgba(0, 0, 0, 0.562);
+  border: 1px solid rgba(0, 0, 0, 0.212);
   height: 349px;
-  padding: 30px;
+  padding: 10px;
+  border-radius: 4px;
   
 }
 #info{
-  text-align: justify;
-  margin: 5px;
+  text-align: left;
+  padding:  5px;
+
+}
+.destak{
+  font-size: 28px;
 }
 #campos{
   font-family: var(--bolder);
+  font-size: 16,6px;
 }
 section{
   text-align: center;
   margin: auto;
-  width: 383px;
-  height: 100px;
+  width: 600px;
+  height: 200px;
   margin-top: 10px;  
 }
+input{
+  width: 350px;
+  
+}
 a{
-  text-decoration: no;
+  text-decoration: none;
+  color: rgb(32, 152, 199);
+  font-weight: 500;
 }
 footer{
 text-align: center;
@@ -54,32 +67,58 @@ text-align: center;
 footer > nav > a{
   padding-right: 15px;
 }
-form{
-  padding: 20px;
+
+input{
+  height: 20px;
+  width: 350px;
+  color: white;
 }
+
 #login{
-  background-color: #F1C559;
-  border-radius: 2px;
-  height: 30px;
-  width: 340px;
-  margin: auto;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.541), #f3c244 80%);
+  border-radius: 3px;
+  height: 40px;
+  width: 350px;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 25px;
+  font-family: var(--regular);
+  color: black;
+}
+#login :hover{
+  background-color: #F0C457;
 }
 #politic{
   text-align: justify;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
 }
+
 details{
   margin: 5px;
   text-align: justify;
 }
+legend{
+  color: darkgray;
+   
+}
+
 #crie{
   background-color: rgb(226, 229, 235);
   border-radius: 2px;
-  height: 30px;
+  height: 40px;
   width: 415px;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18px;
+  
+}
+#copyr{
+  padding: 10px;
+  color: rgb(117, 117, 117);
 }
 
